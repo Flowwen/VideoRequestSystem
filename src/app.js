@@ -13,6 +13,7 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 // const dbUrl = "mongodb+srv://prathamesh:prathameshp@cluster0.e8fvx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+console.log("DB_URL",process.env.MONGO_URI);
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
