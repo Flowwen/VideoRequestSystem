@@ -23,13 +23,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Flowwen/DemoProject.git"
+    "url": "git+https://github.com/Flowwen/VideoRequestSystem.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Flowwen/DemoProject/issues"
+    "url": "https://github.com/Flowwen/VideoRequestSystem/issues"
   },
-  "homepage": "https://github.com/Flowwen/DemoProject#readme"
+  "homepage": "https://github.com/Flowwen/VideoRequestSystem#readme"
 }
