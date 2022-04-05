@@ -1,0 +1,64 @@
+User Flow ==> 
+
+1. user signup
+2. user login
+3. user request for videos (video's date)
+4. user can watch the video.
+
+
+Admin flows ==>
+1. admin signup
+2. admin login
+3. admin uploads video
+4. admin can view the request pipeline of users
+5. Admin can accept/reject the request
+
+
+Request Flow ==>
+1.user can send request
+2. admin view request
+
+Implementation :- 💁‍♀️
+
+ADMIN  and  USER corresponds to same ROUTER
+
+POST
+/signup : for signup of admin/users
+/login  : for login of admin/users
+/admin/video : upload new video.
+/user/request : req  
+
+GET
+
+/admin : get all admin data
+/admin/:adminId : get single admin data
+/admin/user: get all users data
+/admin/user/:userId : get single user
+/admin/video/ : get all videos uploaded.
+/admin/video/:videoId : get single video uploaded
+/admin/request/ : get all users request
+/admin/request/:requestId : get single user's request
+
+
+/user : get user profile
+/user/:userId/request : get all specific users Request 
+/user/:userId/request/:requestId : get specific single user Request 
+/user/:userId/video : get all accepted request videos.
+
+
+PUT/PATCH 
+/admin/:adminId : update admin details.
+/admin/:adminId/:videoId : update video details.
+/admin/:adminId/:requestId : update request details.
+
+/user/:userId : update users details
+/user/:userId/:requestId : update request details
+
+
+DELETE 
+/admin/:adminId : delete admin details
+/admin/:adminId/:videoId : delete video details
+/admin/:adminId/:requestId : delete request details
+
+/user/:userId : delete users details
+/user/:userId/:requestId : delete request details
