@@ -10,6 +10,7 @@ const videoRouter = require("../api/routes/video.js")
 const requestRouter = require("../api/routes/request.js")
 const dotenv = require('dotenv')
 
+
 dotenv.config()
 // const dbUrl = "mongodb+srv://prathamesh:prathameshp@cluster0.e8fvx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 mongoose.connect(process.env.MONGO_URI, {
